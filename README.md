@@ -1,8 +1,8 @@
-### **Assignment: Creating a Simple Contact Management System Using Records**
+### **Problem: Creating a Simple Contact Management System Using Records**
 
 **Objective:** This assignment will help you practice using **records** in C#. You will create a simple contact management system that stores contact details using records. Records provide an easy way to create immutable data types, making them perfect for representing simple data objects like contacts.
 
-### **Assignment Instructions:**
+### **Instructions:**
 
 1. **Create a Record Named `Contact`:**
    - Define a record named `Contact` with the following properties:
