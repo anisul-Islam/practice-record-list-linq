@@ -78,27 +78,49 @@ Name: Charlie Brown, Phone: 555-555-5555, Email: charlie@example.com
 
 ## **Problem 3: Library Book Management System (Using Records, LINQ, and Lists)**
 
-**Objective:** Create a library system to manage books using records, lists, and LINQ queries. This project will help you combine all three concepts to build a simple data management application.
+**Objective:** This assignment will help you practice using **records**, **lists**, and **LINQ** in C#. You will create a simple library management system that allows users to manage books and members, track borrowed books, and use LINQ queries to filter and display data.
 
-**Instructions:**
+### **Project Overview:**
 
-1. **Create a Record Named `Book`:**
-   - The record should have the following properties:
-     - `Title` (string) - The title of the book.
-     - `Author` (string) - The author of the book.
-     - `YearPublished` (int) - The year the book was published.
-     - `IsAvailable` (bool) - Whether the book is available for checkout.
+You will create a library management system consisting of the following components:
 
-2. **Create a Class Named `Library`:**
-   - The class should manage a list of `Book` records.
-   - Implement the following methods:
-     - `AddBook(Book book)`: Adds a book to the library.
-     - `RemoveBook(string title)`: Removes a book by title.
-     - `FindBooksByAuthor(string author)`: Finds books by a specific author using LINQ.
-     - `DisplayAvailableBooks()`: Displays books that are available using LINQ.
+1. **Records**: Used for defining data structures like books, members, and borrow records.
+2. **Lists**: Used for managing collections of books, members, and borrow records.
+3. **LINQ**: Used for querying and filtering data in lists.
 
-3. **Create a Main Program:**
-   - Create instances of `Book`, add them to the `Library`, and demonstrate the use of LINQ queries.
+### **Features to Implement:**
+
+1. **Manage Books**:
+   - Add new books to the library.
+   - Remove books from the library.
+   - Display all books in the library.
+   - Search for books by title, author, or genre using LINQ.
+
+2. **Manage Members**:
+   - Add new members to the library.
+   - Remove members from the library.
+   - Display all members.
+   - Search for members by name using LINQ.
+
+3. **Borrowing System**:
+   - Borrow a book: A member can borrow a book if it’s available.
+   - Return a book: A member can return a borrowed book.
+   - Display borrowed books and filter borrowed records using LINQ.
+
+### **Assignment Instructions:**
+
+1. **Create Records**:
+   - `Book`: Represents a book in the library.
+   - `Member`: Represents a library member.
+   - `BorrowRecord`: Represents a record of a borrowed book.
+
+2. **Create a Class `LibraryManager`**:
+   - Manage collections of books, members, and borrow records using lists.
+   - Implement methods to add, remove, search, and display books and members.
+   - Implement methods to handle borrowing and returning books.
+
+3. **Create a Main Program to Test the System**:
+   - Use the `LibraryManager` to manage books, members, and borrowing operations.
 
 ### **Expected Output:**
 
