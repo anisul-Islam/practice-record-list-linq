@@ -1,4 +1,6 @@
-﻿public record Contact(string Name, string phoneNumber, string Email);
+﻿// First problem contact
+/*
+public record Contact(string Name, string phoneNumber, string Email);
 class ContactManager
 {
     List<Contact> contactInfo = new List<Contact>();
@@ -86,5 +88,69 @@ class Run
                 break;
             }
         }
+    }
+}
+*/
+
+// Seconed problem student grade
+public record Student(string Name, double Grade, string Subject);
+
+class StudentManager
+{
+    List<Student> studentsList = new List<Student>();
+
+    public void AddStudent(Student student)
+    {
+        studentsList.Add(student);
+        Console.WriteLine($"\"{student.Name}\" was added successfully.");
+
+    }
+    public void RemoveStudent(string name)
+    {
+        var foundStudent = studentsList.FirstOrDefault(student => student.Name == name);
+        if (foundStudent != null)
+        {
+            studentsList.Remove(foundStudent);
+            Console.WriteLine($"\"{name}\" was removed successfully.");
+        }
+        else
+        {
+            Console.WriteLine($"there is no student called \"{name}\"");
+
+        }
+    }
+
+    public void DisPlayAllStudents()
+    {
+        if (studentsList.Count() == 0)
+        {
+            Console.WriteLine($"The student kist is empty!");
+
+        }
+        else
+        {
+            foreach (var student in studentsList)
+            {
+                Console.WriteLine($"{student.Name}, {student.Grade}, {student.Subject}");
+
+            }
+        }
+    }
+}
+class Run
+{
+    public static void Main(string[] args)
+    {
+        Student student1 = new Student("Ghadah", 4.81, "CS");
+        Student student2 = new Student("Samar", 4.75, "Sport");
+        Student student3 = new Student("Najwa", 4.50, "CHEM");
+
+        StudentManager manager = new StudentManager();
+        manager.AddStudent(student1);
+        manager.AddStudent(student2);
+        manager.AddStudent(student3);
+        manager.DisPlayAllStudents();
+        manager.RemoveStudent("Ghadah");
+        manager.DisPlayAllStudents();
     }
 }
