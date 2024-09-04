@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("practice-record-list")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a16d0c87722d58bef601b6316749431e97a2aa2f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+80737114d6bc1c5fa26e9caaba0f77c5ca405070")]
 [assembly: System.Reflection.AssemblyProductAttribute("practice-record-list")]
 [assembly: System.Reflection.AssemblyTitleAttribute("practice-record-list")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

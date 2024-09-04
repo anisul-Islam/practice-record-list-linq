@@ -1,0 +1,15 @@
+C:\Users\Abeer\practice-record-list-linq\practice-record-list\bin\Debug\net8.0\practice-record-list.exe
+C:\Users\Abeer\practice-record-list-linq\practice-record-list\bin\Debug\net8.0\practice-record-list.deps.json
+C:\Users\Abeer\practice-record-list-linq\practice-record-list\bin\Debug\net8.0\practice-record-list.runtimeconfig.json
+C:\Users\Abeer\practice-record-list-linq\practice-record-list\bin\Debug\net8.0\practice-record-list.dll
+C:\Users\Abeer\practice-record-list-linq\practice-record-list\bin\Debug\net8.0\practice-record-list.pdb
+C:\Users\Abeer\practice-record-list-linq\practice-record-list\obj\Debug\net8.0\practice-record-list.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abeer\practice-record-list-linq\practice-record-list\obj\Debug\net8.0\practice-record-list.AssemblyInfoInputs.cache
+C:\Users\Abeer\practice-record-list-linq\practice-record-list\obj\Debug\net8.0\practice-record-list.AssemblyInfo.cs
+C:\Users\Abeer\practice-record-list-linq\practice-record-list\obj\Debug\net8.0\practice-record-list.csproj.CoreCompileInputs.cache
+C:\Users\Abeer\practice-record-list-linq\practice-record-list\obj\Debug\net8.0\practice-record-list.sourcelink.json
+C:\Users\Abeer\practice-record-list-linq\practice-record-list\obj\Debug\net8.0\practice-record-list.dll
+C:\Users\Abeer\practice-record-list-linq\practice-record-list\obj\Debug\net8.0\refint\practice-record-list.dll
+C:\Users\Abeer\practice-record-list-linq\practice-record-list\obj\Debug\net8.0\practice-record-list.pdb
+C:\Users\Abeer\practice-record-list-linq\practice-record-list\obj\Debug\net8.0\practice-record-list.genruntimeconfig.cache
+C:\Users\Abeer\practice-record-list-linq\practice-record-list\obj\Debug\net8.0\ref\practice-record-list.dll
