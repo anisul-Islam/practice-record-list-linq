@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "sda-practice-record-list-linq/1.0.0": {
+        "runtime": {
+          "sda-practice-record-list-linq.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "sda-practice-record-list-linq/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
