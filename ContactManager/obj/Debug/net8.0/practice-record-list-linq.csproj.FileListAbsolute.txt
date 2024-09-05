@@ -1,0 +1,15 @@
+C:\Users\rakan\Documents\SDA COURSE\Week 2\practice-record-list-linq\ContactManager\bin\Debug\net8.0\practice-record-list-linq.exe
+C:\Users\rakan\Documents\SDA COURSE\Week 2\practice-record-list-linq\ContactManager\bin\Debug\net8.0\practice-record-list-linq.deps.json
+C:\Users\rakan\Documents\SDA COURSE\Week 2\practice-record-list-linq\ContactManager\bin\Debug\net8.0\practice-record-list-linq.runtimeconfig.json
+C:\Users\rakan\Documents\SDA COURSE\Week 2\practice-record-list-linq\ContactManager\bin\Debug\net8.0\practice-record-list-linq.dll
+C:\Users\rakan\Documents\SDA COURSE\Week 2\practice-record-list-linq\ContactManager\bin\Debug\net8.0\practice-record-list-linq.pdb
+C:\Users\rakan\Documents\SDA COURSE\Week 2\practice-record-list-linq\ContactManager\obj\Debug\net8.0\practice-record-list-linq.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rakan\Documents\SDA COURSE\Week 2\practice-record-list-linq\ContactManager\obj\Debug\net8.0\practice-record-list-linq.AssemblyInfoInputs.cache
+C:\Users\rakan\Documents\SDA COURSE\Week 2\practice-record-list-linq\ContactManager\obj\Debug\net8.0\practice-record-list-linq.AssemblyInfo.cs
+C:\Users\rakan\Documents\SDA COURSE\Week 2\practice-record-list-linq\ContactManager\obj\Debug\net8.0\practice-record-list-linq.csproj.CoreCompileInputs.cache
+C:\Users\rakan\Documents\SDA COURSE\Week 2\practice-record-list-linq\ContactManager\obj\Debug\net8.0\practice-record-list-linq.sourcelink.json
+C:\Users\rakan\Documents\SDA COURSE\Week 2\practice-record-list-linq\ContactManager\obj\Debug\net8.0\practice-record-list-linq.dll
+C:\Users\rakan\Documents\SDA COURSE\Week 2\practice-record-list-linq\ContactManager\obj\Debug\net8.0\refint\practice-record-list-linq.dll
+C:\Users\rakan\Documents\SDA COURSE\Week 2\practice-record-list-linq\ContactManager\obj\Debug\net8.0\practice-record-list-linq.pdb
+C:\Users\rakan\Documents\SDA COURSE\Week 2\practice-record-list-linq\ContactManager\obj\Debug\net8.0\practice-record-list-linq.genruntimeconfig.cache
+C:\Users\rakan\Documents\SDA COURSE\Week 2\practice-record-list-linq\ContactManager\obj\Debug\net8.0\ref\practice-record-list-linq.dll

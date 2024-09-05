@@ -1,0 +1,15 @@
+C:\Users\rakan\Documents\SDA COURSE\Week 2\practice-record-list-linq\StudentGradeManagmentSystem\bin\Debug\net8.0\StudentGradeManagmentSystem.exe
+C:\Users\rakan\Documents\SDA COURSE\Week 2\practice-record-list-linq\StudentGradeManagmentSystem\bin\Debug\net8.0\StudentGradeManagmentSystem.deps.json
+C:\Users\rakan\Documents\SDA COURSE\Week 2\practice-record-list-linq\StudentGradeManagmentSystem\bin\Debug\net8.0\StudentGradeManagmentSystem.runtimeconfig.json
+C:\Users\rakan\Documents\SDA COURSE\Week 2\practice-record-list-linq\StudentGradeManagmentSystem\bin\Debug\net8.0\StudentGradeManagmentSystem.dll
+C:\Users\rakan\Documents\SDA COURSE\Week 2\practice-record-list-linq\StudentGradeManagmentSystem\bin\Debug\net8.0\StudentGradeManagmentSystem.pdb
+C:\Users\rakan\Documents\SDA COURSE\Week 2\practice-record-list-linq\StudentGradeManagmentSystem\obj\Debug\net8.0\StudentGradeManagmentSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rakan\Documents\SDA COURSE\Week 2\practice-record-list-linq\StudentGradeManagmentSystem\obj\Debug\net8.0\StudentGradeManagmentSystem.AssemblyInfoInputs.cache
+C:\Users\rakan\Documents\SDA COURSE\Week 2\practice-record-list-linq\StudentGradeManagmentSystem\obj\Debug\net8.0\StudentGradeManagmentSystem.AssemblyInfo.cs
+C:\Users\rakan\Documents\SDA COURSE\Week 2\practice-record-list-linq\StudentGradeManagmentSystem\obj\Debug\net8.0\StudentGradeManagmentSystem.csproj.CoreCompileInputs.cache
+C:\Users\rakan\Documents\SDA COURSE\Week 2\practice-record-list-linq\StudentGradeManagmentSystem\obj\Debug\net8.0\StudentGradeManagmentSystem.sourcelink.json
+C:\Users\rakan\Documents\SDA COURSE\Week 2\practice-record-list-linq\StudentGradeManagmentSystem\obj\Debug\net8.0\StudentGradeManagmentSystem.dll
+C:\Users\rakan\Documents\SDA COURSE\Week 2\practice-record-list-linq\StudentGradeManagmentSystem\obj\Debug\net8.0\refint\StudentGradeManagmentSystem.dll
+C:\Users\rakan\Documents\SDA COURSE\Week 2\practice-record-list-linq\StudentGradeManagmentSystem\obj\Debug\net8.0\StudentGradeManagmentSystem.pdb
+C:\Users\rakan\Documents\SDA COURSE\Week 2\practice-record-list-linq\StudentGradeManagmentSystem\obj\Debug\net8.0\StudentGradeManagmentSystem.genruntimeconfig.cache
+C:\Users\rakan\Documents\SDA COURSE\Week 2\practice-record-list-linq\StudentGradeManagmentSystem\obj\Debug\net8.0\ref\StudentGradeManagmentSystem.dll

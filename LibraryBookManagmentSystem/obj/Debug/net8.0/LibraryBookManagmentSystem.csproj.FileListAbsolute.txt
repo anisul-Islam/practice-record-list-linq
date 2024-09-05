@@ -1,0 +1,15 @@
+C:\Users\rakan\Documents\SDA COURSE\Week 2\practice-record-list-linq\LibraryBookManagmentSystem\bin\Debug\net8.0\LibraryBookManagmentSystem.exe
+C:\Users\rakan\Documents\SDA COURSE\Week 2\practice-record-list-linq\LibraryBookManagmentSystem\bin\Debug\net8.0\LibraryBookManagmentSystem.deps.json
+C:\Users\rakan\Documents\SDA COURSE\Week 2\practice-record-list-linq\LibraryBookManagmentSystem\bin\Debug\net8.0\LibraryBookManagmentSystem.runtimeconfig.json
+C:\Users\rakan\Documents\SDA COURSE\Week 2\practice-record-list-linq\LibraryBookManagmentSystem\bin\Debug\net8.0\LibraryBookManagmentSystem.dll
+C:\Users\rakan\Documents\SDA COURSE\Week 2\practice-record-list-linq\LibraryBookManagmentSystem\bin\Debug\net8.0\LibraryBookManagmentSystem.pdb
+C:\Users\rakan\Documents\SDA COURSE\Week 2\practice-record-list-linq\LibraryBookManagmentSystem\obj\Debug\net8.0\LibraryBookManagmentSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rakan\Documents\SDA COURSE\Week 2\practice-record-list-linq\LibraryBookManagmentSystem\obj\Debug\net8.0\LibraryBookManagmentSystem.AssemblyInfoInputs.cache
+C:\Users\rakan\Documents\SDA COURSE\Week 2\practice-record-list-linq\LibraryBookManagmentSystem\obj\Debug\net8.0\LibraryBookManagmentSystem.AssemblyInfo.cs
+C:\Users\rakan\Documents\SDA COURSE\Week 2\practice-record-list-linq\LibraryBookManagmentSystem\obj\Debug\net8.0\LibraryBookManagmentSystem.csproj.CoreCompileInputs.cache
+C:\Users\rakan\Documents\SDA COURSE\Week 2\practice-record-list-linq\LibraryBookManagmentSystem\obj\Debug\net8.0\LibraryBookManagmentSystem.sourcelink.json
+C:\Users\rakan\Documents\SDA COURSE\Week 2\practice-record-list-linq\LibraryBookManagmentSystem\obj\Debug\net8.0\LibraryBookManagmentSystem.dll
+C:\Users\rakan\Documents\SDA COURSE\Week 2\practice-record-list-linq\LibraryBookManagmentSystem\obj\Debug\net8.0\refint\LibraryBookManagmentSystem.dll
+C:\Users\rakan\Documents\SDA COURSE\Week 2\practice-record-list-linq\LibraryBookManagmentSystem\obj\Debug\net8.0\LibraryBookManagmentSystem.pdb
+C:\Users\rakan\Documents\SDA COURSE\Week 2\practice-record-list-linq\LibraryBookManagmentSystem\obj\Debug\net8.0\LibraryBookManagmentSystem.genruntimeconfig.cache
+C:\Users\rakan\Documents\SDA COURSE\Week 2\practice-record-list-linq\LibraryBookManagmentSystem\obj\Debug\net8.0\ref\LibraryBookManagmentSystem.dll
