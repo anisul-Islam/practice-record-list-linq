@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("sda-practice-record-list-linq")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aec0d3e58595395b13a186c6fa5767c55f31615f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bdfad4219b428c9f382a13d04c69e948f07a068b")]
 [assembly: System.Reflection.AssemblyProductAttribute("sda-practice-record-list-linq")]
 [assembly: System.Reflection.AssemblyTitleAttribute("sda-practice-record-list-linq")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

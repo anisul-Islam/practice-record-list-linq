@@ -93,6 +93,7 @@ class Run
 */
 
 // Seconed problem student grade
+/*
 public record Student(string Name, double Grade, string Subject);
 
 class StudentManager
@@ -152,5 +153,221 @@ class Run
         manager.DisPlayAllStudents();
         manager.RemoveStudent("Ghadah");
         manager.DisPlayAllStudents();
+    }
+}
+*/
+
+// Third library problem
+public record Book(int Id, string Title, string Gener, string Author, bool IsAvailable = true);
+public record Member(int Id, string Name, string Email);
+public record BorrowRecord(string Title, string Member, DateTime Date);
+
+class LibraryManager
+{
+    List<Book> booksList = new List<Book>();
+    List<Member> membersList = new List<Member>();
+    List<BorrowRecord> borrowBooksList = new List<BorrowRecord>();
+    public void AddBook(Book book)
+    {
+        booksList.Add(book);
+        Console.WriteLine($"Book '{book.Title}' added to the library.");
+
+    }
+    public void RemoveBook(string title)
+    {
+        var foundBook = booksList.FirstOrDefault(book => book.Title == title);
+        if (foundBook != null)
+        {
+            booksList.Remove(foundBook);
+            Console.WriteLine($"Book '{title}' removed from the library.");
+        }
+        else
+        {
+            Console.WriteLine($"There is no book called '{title}' in the library");
+
+        }
+    }
+    public void SearchBook(string userInput)
+    {
+        var foundBook = booksList.FirstOrDefault(book => book.Author == userInput
+         || book.Title == userInput || book.Gener == userInput);
+        if (foundBook != null)
+        {
+            Console.WriteLine($"Searching for books with '{foundBook.Title}':");
+
+            Console.WriteLine($"{foundBook}");
+        }
+        else
+        {
+            Console.WriteLine($"There is no book called '{userInput}' in the library");
+
+        }
+
+    }
+    public void DisplayAllBooks()
+    {
+        if (booksList.Count() != 0)
+        {
+            Console.WriteLine($"Library Books: ");
+
+            foreach (var book in booksList)
+            {
+                Console.WriteLine($"{book}");
+            }
+        }
+        else
+        {
+            Console.WriteLine($"Library books is empty!");
+        }
+    }
+
+    public void AddMember(Member member)
+    {
+        membersList.Add(member);
+        Console.WriteLine($"Member '{member.Name}' added to the library.");
+
+
+    }
+    public void RemoveMember(string name)
+    {
+        var foundMember = membersList.FirstOrDefault(member => member.Name == name);
+        if (foundMember != null)
+        {
+            membersList.Remove(foundMember);
+            Console.WriteLine($"Member '{name}' removed from the library.");
+
+        }
+        else
+        {
+            Console.WriteLine($"There is no member called '{name}.'");
+
+        }
+    }
+    public void SearchMember(string name)
+    {
+        var foundMember = membersList.FirstOrDefault(member => member.Name == name);
+        if (foundMember != null)
+        {
+            Console.WriteLine($"Found: {foundMember}");
+        }
+        else
+        {
+            Console.WriteLine($"There is no member called '{name}.");
+
+        }
+    }
+    public void DisplayAllMembers()
+    {
+        if (membersList.Count() != 0)
+        {
+            Console.WriteLine($"Library Members: ");
+
+            foreach (var member in membersList)
+            {
+                Console.WriteLine($"{member}");
+            }
+        }
+        else
+        {
+            Console.WriteLine($"Members List is empty!");
+        }
+    }
+    public void BorrowBook(string bookTitle, string memberName)
+    {
+        var foundBook = booksList.FirstOrDefault(book => book.Title == bookTitle);
+        var foundMember = membersList.FirstOrDefault(member => member.Name == memberName);
+
+        if (foundBook != null && foundMember != null)
+        {
+            if (foundBook.IsAvailable)
+            {
+                booksList[booksList.FindIndex(book => book.Title == bookTitle)] = foundBook with { IsAvailable = false };
+                borrowBooksList.Add(new BorrowRecord(bookTitle, memberName, DateTime.Now));
+                Console.WriteLine($"Borrowing a book: ");
+
+                Console.WriteLine($"'{bookTitle}' borrowed by {memberName} on {DateTime.Now}.");
+
+            }
+            else
+            {
+                Console.WriteLine($"The book is already borrowed.");
+
+            }
+        }
+        else
+        {
+            Console.WriteLine($"There is no book called '{bookTitle}' or member called '{memberName}'.");
+
+        }
+
+    }
+    public void ReturnBook(string bookTitle, string memberName)
+    {
+        var foundBook = booksList.FirstOrDefault(book => book.Title == bookTitle);
+        var foundMember = membersList.FirstOrDefault(member => member.Name == memberName);
+
+        if (foundBook != null && foundMember != null)
+        {
+            if (!foundBook.IsAvailable)
+            {
+                booksList[booksList.FindIndex(book => book.Title == bookTitle)] = foundBook with { IsAvailable = true };
+                var borrowedBook = borrowBooksList.FirstOrDefault(br => br.Title == bookTitle && br.Member == memberName);
+                if (borrowedBook != null)
+                {
+                    borrowBooksList.Remove(borrowedBook);
+                    Console.WriteLine($"Returning a book: ");
+
+                    Console.WriteLine($"Book '{bookTitle}' returned by '{memberName}'");
+                }
+
+            }
+            else
+            {
+                Console.WriteLine($"This book is not in the borrow list to return it.");
+
+            }
+
+        }
+        else
+        {
+            Console.WriteLine($"There is no book called '{bookTitle}' or member called '{memberName}'.");
+
+        }
+    }
+    public void DisplayAllBorrowedBooks()
+    {
+        if (borrowBooksList.Count() != 0)
+        {
+            foreach (var borrowBook in borrowBooksList)
+            {
+                Console.WriteLine($"Displaying borrowed books: ");
+
+                Console.WriteLine($"{borrowBook}");
+            }
+        }
+        else
+        {
+            Console.WriteLine($"No books are currently borrowed.");
+        }
+    }
+}
+class Run
+{
+    public static void Main(string[] args)
+    {
+        LibraryManager libraryManager = new LibraryManager();
+        libraryManager.AddBook(new Book(1, "The Great Gatsby", "F. Scott Fitzgerald", "Fiction"));
+        libraryManager.AddBook(new Book(2, "1984", "George Orwell", "Dystopian"));
+        libraryManager.AddBook(new Book(3, "To Kill a Mockingbird", "Harper Lee", "Classic"));
+        libraryManager.AddMember(new Member(1, "Alice Johnson", "alice@example.com"));
+        libraryManager.AddMember(new Member(2, "Bob Smith", "bob@example.com"));
+        libraryManager.DisplayAllBooks();
+        libraryManager.DisplayAllMembers();
+        libraryManager.SearchBook("1984");
+        libraryManager.BorrowBook("1984", "Alice Johnson");
+        libraryManager.DisplayAllBorrowedBooks();
+        libraryManager.ReturnBook("1984", "Alice Johnson");
+        libraryManager.DisplayAllBorrowedBooks();
+
     }
 }
