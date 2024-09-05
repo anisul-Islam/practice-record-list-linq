@@ -1,0 +1,15 @@
+/Users/ghadah/SDA/practice-record-list-linq/sda-practice-record-list-linq/bin/Debug/net8.0/sda-practice-record-list-linq
+/Users/ghadah/SDA/practice-record-list-linq/sda-practice-record-list-linq/bin/Debug/net8.0/sda-practice-record-list-linq.deps.json
+/Users/ghadah/SDA/practice-record-list-linq/sda-practice-record-list-linq/bin/Debug/net8.0/sda-practice-record-list-linq.runtimeconfig.json
+/Users/ghadah/SDA/practice-record-list-linq/sda-practice-record-list-linq/bin/Debug/net8.0/sda-practice-record-list-linq.dll
+/Users/ghadah/SDA/practice-record-list-linq/sda-practice-record-list-linq/bin/Debug/net8.0/sda-practice-record-list-linq.pdb
+/Users/ghadah/SDA/practice-record-list-linq/sda-practice-record-list-linq/obj/Debug/net8.0/sda-practice-record-list-linq.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ghadah/SDA/practice-record-list-linq/sda-practice-record-list-linq/obj/Debug/net8.0/sda-practice-record-list-linq.AssemblyInfoInputs.cache
+/Users/ghadah/SDA/practice-record-list-linq/sda-practice-record-list-linq/obj/Debug/net8.0/sda-practice-record-list-linq.AssemblyInfo.cs
+/Users/ghadah/SDA/practice-record-list-linq/sda-practice-record-list-linq/obj/Debug/net8.0/sda-practice-record-list-linq.csproj.CoreCompileInputs.cache
+/Users/ghadah/SDA/practice-record-list-linq/sda-practice-record-list-linq/obj/Debug/net8.0/sda-practice-record-list-linq.sourcelink.json
+/Users/ghadah/SDA/practice-record-list-linq/sda-practice-record-list-linq/obj/Debug/net8.0/sda-practice-record-list-linq.dll
+/Users/ghadah/SDA/practice-record-list-linq/sda-practice-record-list-linq/obj/Debug/net8.0/refint/sda-practice-record-list-linq.dll
+/Users/ghadah/SDA/practice-record-list-linq/sda-practice-record-list-linq/obj/Debug/net8.0/sda-practice-record-list-linq.pdb
+/Users/ghadah/SDA/practice-record-list-linq/sda-practice-record-list-linq/obj/Debug/net8.0/sda-practice-record-list-linq.genruntimeconfig.cache
+/Users/ghadah/SDA/practice-record-list-linq/sda-practice-record-list-linq/obj/Debug/net8.0/ref/sda-practice-record-list-linq.dll
