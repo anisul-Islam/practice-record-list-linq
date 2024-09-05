@@ -165,7 +165,7 @@ No books are currently borrowed.
 3. **LINQ**: Utilized for querying and filtering collections, making operations like search and filtering efficient and readable.
 4. **Object-Oriented Design**: The `LibraryManager` class encapsulates all the management logic, demonstrating encapsulation and separation of concerns.
 
-### **Problem 4: Building a Simple E-Commerce Management System**
+## **Problem 4: Building a Simple E-Commerce Management System**
 
 **Objective:** This assignment will help you practice using **records**, **lists**, and **LINQ** in C#. You will create a simple e-commerce management system that allows users to manage products, customers, and orders using C#'s modern features.
 
@@ -242,7 +242,7 @@ Order ID: 1, Customer: Alice Johnson, Total: $2,000.00, Date: [Current Date]
  - Phone ($800.00)
 ```
 
-## **Problem 4 - CRUD APP: Building a Simple Employee Management System**
+## **Problem 5 - CRUD APP: Building a Simple Employee Management System**
 
 **Objective:** This assignment will help you practice using **CRUD (Create, Read, Update, Delete)** operations, **filtering**, **sorting**, and **pagination** in C#. You will create a simple employee management system that allows users to manage employee records using lists and LINQ.
 
