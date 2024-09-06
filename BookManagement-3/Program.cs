@@ -1,19 +1,21 @@
-﻿
-using System;
+﻿using System;
 
 public record Book(string Title, string Author, string Genre, int Id)
 {
-    private static int _counter = 100;
+    private static int counter = 100;
 
-    // Constructor that only takes title, author, genre and assigns the ID
     public Book(string Title, string Author, string Genre) 
-        : this(Title, Author, Genre, _counter++) // Automatically assigns a new ID
+        : this(Title, Author, Genre, counter++) //assigns an autoIncrement ID start from 100
     {
     }
 }
 
+
+
 public record Member(string Name, string PhoneNumber, string Email)
 {
+
+    //assigns a read only ID for members
     private string id = Guid.NewGuid().ToString();
     public string Id { get { return id; } }
 };
@@ -21,11 +23,11 @@ public record Member(string Name, string PhoneNumber, string Email)
 
 public record BorrowRecord(int BookId, string MemberId, int Id)
 {
-    private static int _counter = 100;
+    private static int counter = 100;
 
     
     public BorrowRecord(int bookId, string memberId) 
-        : this(bookId, memberId, _counter++) // Calls the primary constructor and assigns a new sequential Id
+        : this(bookId, memberId, counter++) //assigns a sequential Id
     {
     }
 
@@ -35,6 +37,7 @@ public record BorrowRecord(int BookId, string MemberId, int Id)
     public DateTime DateOfBorrow { get { return dateOfBorrow; } }
 
 };
+
 
 
 
@@ -149,12 +152,11 @@ public class LibraryManager
         if (books.Any(book => book.Id == bookID) && members.Any(member => member.Id == memberID))
         {
             borrowRecord.Add(new BorrowRecord(bookID, memberID));
-            //change the book to not available
-            string bookName = books.FirstOrDefault(book => book.Id == bookID).Title;
-            //var bookName = from book in books where book.Id == bookID select book..ToString();
+            
+            var getBook = books.FirstOrDefault(book => book.Id == bookID);
+            var getMember = members.FirstOrDefault(member => member.Id == memberID);
 
-            string? memberName = members.FirstOrDefault(member => member.Id == memberID).Name;
-            Console.WriteLine($"Book '{bookName}' borrowed by '{memberName}' \n");
+            Console.WriteLine($"Book '{getBook.Title}' borrowed by '{getMember.Name}' \n");
 
         }
 
@@ -182,13 +184,13 @@ public class LibraryManager
         {
 
 
-            string bookName = books.FirstOrDefault(book => book.Id == bookId).Title;
-            string memberName = members.FirstOrDefault(member => member.Id == memberId).Name;
+            var getBook = books.FirstOrDefault(book => book.Id == bookId);
+            var getMember = members.FirstOrDefault(member => member.Id == memberId);
 
 
             borrowRecord.Remove(GetTheBooked);
             // //change the book to available
-            Console.WriteLine($"\nBook'{bookName}' returned by '{memberName}'.\n");
+            Console.WriteLine($"\nBook'{getBook.Title}' returned by '{getMember.Name}'.\n");
         }
         else
         {
@@ -208,14 +210,12 @@ public class LibraryManager
             foreach (var record in borrowRecord)
             {
 
-                //IEnumerable<string> bookName = books.Where(book => book.Id == record.BookId).Select(book => book.Title);
+                
 
-                string bookName = books.FirstOrDefault(book => book.Id == record.BookId).Title;
-                string memberName = members.FirstOrDefault(member => member.Id == record.MemberId).Name;
-                //string? memberName = members.Where().Select(member => member.Name).ToString();
+                var getBook = books.FirstOrDefault(book => book.Id == record.BookId);
+                var getMember = members.FirstOrDefault(member => member.Id == record.MemberId);
 
-
-                Console.WriteLine($"\t{record.Id}- Book '{bookName}' borrowed by '{memberName}' on {record.DateOfBorrow.ToShortDateString()} ");
+                Console.WriteLine($"\t{record.Id}- Book '{getBook.Title}' borrowed by '{getMember.Name}' on {record.DateOfBorrow.ToShortDateString()} ");
 
             }
         }
@@ -270,6 +270,8 @@ public class Program
         Console.WriteLine($"\n Library Members:\n");
         library.DisplayMembers();
 
+
+        // try for searching the book by name
         try
         {
             Console.WriteLine($"\n Searching for books'1984'");
@@ -281,6 +283,8 @@ public class Program
         }
 
 
+
+        //try for borrowing the book
         try
         {
 
@@ -298,6 +302,7 @@ public class Program
         }
 
 
+        //try to returning the book
         try
         {
             Console.WriteLine($" ");
