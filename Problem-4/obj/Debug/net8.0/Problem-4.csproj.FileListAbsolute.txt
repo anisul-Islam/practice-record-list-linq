@@ -1,0 +1,15 @@
+/Users/reenad/Documents/practice-record-list-linq/Problem-4/bin/Debug/net8.0/Problem-4
+/Users/reenad/Documents/practice-record-list-linq/Problem-4/bin/Debug/net8.0/Problem-4.deps.json
+/Users/reenad/Documents/practice-record-list-linq/Problem-4/bin/Debug/net8.0/Problem-4.runtimeconfig.json
+/Users/reenad/Documents/practice-record-list-linq/Problem-4/bin/Debug/net8.0/Problem-4.dll
+/Users/reenad/Documents/practice-record-list-linq/Problem-4/bin/Debug/net8.0/Problem-4.pdb
+/Users/reenad/Documents/practice-record-list-linq/Problem-4/obj/Debug/net8.0/Problem-4.GeneratedMSBuildEditorConfig.editorconfig
+/Users/reenad/Documents/practice-record-list-linq/Problem-4/obj/Debug/net8.0/Problem-4.AssemblyInfoInputs.cache
+/Users/reenad/Documents/practice-record-list-linq/Problem-4/obj/Debug/net8.0/Problem-4.AssemblyInfo.cs
+/Users/reenad/Documents/practice-record-list-linq/Problem-4/obj/Debug/net8.0/Problem-4.csproj.CoreCompileInputs.cache
+/Users/reenad/Documents/practice-record-list-linq/Problem-4/obj/Debug/net8.0/Problem-4.sourcelink.json
+/Users/reenad/Documents/practice-record-list-linq/Problem-4/obj/Debug/net8.0/Problem-4.dll
+/Users/reenad/Documents/practice-record-list-linq/Problem-4/obj/Debug/net8.0/refint/Problem-4.dll
+/Users/reenad/Documents/practice-record-list-linq/Problem-4/obj/Debug/net8.0/Problem-4.pdb
+/Users/reenad/Documents/practice-record-list-linq/Problem-4/obj/Debug/net8.0/Problem-4.genruntimeconfig.cache
+/Users/reenad/Documents/practice-record-list-linq/Problem-4/obj/Debug/net8.0/ref/Problem-4.dll
